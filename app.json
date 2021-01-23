@@ -57,48 +57,28 @@
       "value": "",
       "required": false
     },
-    "UTUBE_BOT_USERS": {
-      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
-      "value": "184752635",
-      "required": false
-    },
-    "SUPER_DLBOT_USERS": {
-      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
-      "value": "184752635",
-      "required": false
-    },
-    "SUPER3X_DLBOT_USERS": {
-      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
-      "value": "184752635",
-      "required": false
-    },
-    "SUPER7X_DLBOT_USERS": {
-    "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
-    "value": "184752635",
-    "required": false
-    },
     "DOWNLOAD_LOCATION": {
-    "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+    "description": "location to download files used in proccesses",
     "value": "./DOWNLOADS",
     "required": false
     },
     "MAX_FILE_SIZE": {
-    "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+    "description": "max file size limit",
     "value": "50000000",
     "required": false
     },
     "TG_MAX_FILE_SIZE": {
-      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+      "description": "max file size limit",
       "value": "1572864000",
       "required": false
     },
     "FREE_USER_MAX_FILE_SIZE": {
-    "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+    "description": "max file size limit for free users",
     "value": "50000000",
     "required": false
     },
     "DB_SQLALCHEMY": {
-    "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+    "description": "database uri",
     "value": "USERS.session",
     "required": false
     }
