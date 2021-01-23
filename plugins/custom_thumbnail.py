@@ -31,7 +31,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["set_thumb"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["set_thumbnail"]))
 async def generate_custom_thumbnail(bot, update):
     if update.from_user.id not in Config.AUTH_USERS:
         await bot.delete_messages(
@@ -121,7 +121,7 @@ async def save_photo(bot, update):
         )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["del_thumb"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["del_thumbnail"]))
 async def delete_thumbnail(bot, update):
     if update.from_user.id not in Config.AUTH_USERS:
         await bot.delete_messages(
