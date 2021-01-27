@@ -33,7 +33,7 @@ from PIL import Image
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["c2v"]))
 async def convert_to_video(bot, update):
-    if update.from_user.id in Config.AUTH_USERS:
+    if update.from_user.id not in Config.AUTH_USERS:
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.NOT_AUTH_USER_TEXT,
